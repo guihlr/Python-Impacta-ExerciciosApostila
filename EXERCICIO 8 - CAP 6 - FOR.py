@@ -20,8 +20,8 @@ cont = 1
 for cont in range(1, num):
     if num % 2 == 1:
         cont = cont + 1
-        print('primo')
+        print('É PRIMO!')
         break
     else:
-        print('não é primo')
+        print('NÃO É PRIMO!')
         break
