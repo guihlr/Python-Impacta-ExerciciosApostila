@@ -15,13 +15,12 @@
 # else:
 #     print('ele não é primo')
 
-num = int(input('Digite um número: '))
-cont = 1
-for cont in range(1, num):
-    if num % 2 == 1:
-        cont = cont + 1
-        print('É PRIMO!')
-        break
-    else:
-        print('NÃO É PRIMO!')
-        break
+n = int(input('Digite um número: '))
+p = 0
+for c in range(1, n + 1):
+    if n % c == 0:
+        p = p + 1
+if p == 2:
+    print('É PRIMO')
+else:
+    print('NÃO É PRIMO')
